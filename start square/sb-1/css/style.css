@@ -1069,6 +1069,7 @@ a.morebtn:hover{
 i.log-mail {
   background: url(../images/r-user.png)no-repeat 0px 0px;
   width: 14px;
+  float:right;
   height: 14px;
   display: inline-block;
   vertical-align: middle;
