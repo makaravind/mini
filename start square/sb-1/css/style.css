@@ -1055,6 +1055,11 @@ a.morebtn:hover{
   width: 60%;
   margin: 0 auto 1em;
 }
+.log-input1 {
+    width: 60%;
+    margin: 0 auto 1em;
+	text-align:center;
+}
 .login-top input[type="text"] {
   font-size: 1em;
   font-weight: 400;
