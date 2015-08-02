@@ -76,19 +76,39 @@
 </script>
 </head>
 <body>
-<div class="container">
+
 
 	<div class="simple-btns">
-				<div class="simp-bt1"><a href="index.html">Sign In</a></div>
+				<div class="simp-bt3"><a href="index.html">Sign In</a></div>
 				<div class="clearfix"> </div>
 			</div>
-<div class="header">
+
 		<div class="logo">
 			<a href="#"><img src="images/logo.png" alt=""></a>
 		</div>
 		
-		
-
+		<!--navgation start here-->
+		<div class="top-nav">
+			   <!--navgation start here-->
+		<div class="top-nav">
+			    <span class="menu"> <img src="images/icon.png" alt=""/></span>
+			<ul class="res">
+				<li><a class="active" href="#home"><i class="home"> </i>Normal Registration</a></li>
+				<li><a href="#features"><i class="flag"> </i>Account SetUp</a></li>
+			</ul>
+			<!-- script-for-menu -->
+						 <script>
+						   $( "span.menu" ).click(function() {
+							 $( "ul.res" ).slideToggle( 300, function() {
+							 // Animation complete.
+							  });
+							 });
+						</script>
+		<!-- /script-for-menu -->
+		</div>
+		<div class="container">
+	
+<div class="header">
 <!--header main start here-->
 <div class="header-main">
   

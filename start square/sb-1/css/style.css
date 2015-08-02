@@ -185,6 +185,12 @@ margin-top:10px;
   float: right;
   width: 25%;
 }
+.simp-bt3 {
+margin-top:10px;
+  float: right;
+  width: 15%;
+  margin-right:15px;
+}
 .simp-bt2 {
   float:right;
   width: 49%;
@@ -199,7 +205,20 @@ margin-top:10px;
   text-decoration: none;
   display: block;
 }
+.simp-bt3 a {
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  padding: 0.3em 0em 0.3em 0em;
+  text-align: center;
+  background: #F33446;
+  text-decoration: none;
+  display: block;
+}
 .simp-bt1 a:hover {
+  background: #000;
+}
+.simp-bt3 a:hover {
   background: #000;
 }
 .simp-bt2 a {
