@@ -181,7 +181,7 @@ li.serc {
 }
 /*--simple btns here--*/
 .simp-bt1 {
-margin-top:10px;
+margin-top:15px;
   float: right;
   width: 25%;
 }
@@ -1076,7 +1076,7 @@ a.morebtn:hover{
 }
 .log-input1 {
     width: 60%;
-    margin: 0 auto 1em;
+    margin: 0 auto 5px;
 	text-align:center;
 }
 .login-top input[type="text"] {
