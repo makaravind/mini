@@ -24,20 +24,20 @@ a:hover {
 }
 /*--pannel starts here*/
 .panelmatch {
-background-color: rgb(255, 255, 255);
-padding: 1px 0; 
+background:   160px 14px #F33446;
+font-size: 16px;
+padding: 0.2em 0;
+color: #fff;
 height:40px;
 opacity: 0.8;
-    filter: alpha(opacity=80); 
-
+filter: alpha(opacity=80); 
 }
 .panelmatch p{
 padding-left: 1px ;
 margin-left: 100px;
-text-color: blue;
 text-align: left;
 font-size: 20px;
-font-family: "Georgia";
+
 }
 /*--mother-grid start here--*/
 .header {
@@ -57,11 +57,22 @@ span.menu {
   padding: 0em 0em 0em 0em;
   list-style: none;
 }
+.contact-nav ul {
+  padding: 0em 0em 0em 0em;
+  list-style: none;
+}
 .top-nav ul li {
   display: inline-block;
   margin: 0em 0em 0em 0em;
   background: #F33446;
   width: 19.55%;
+  text-align: center;
+}
+.contact-nav ul li {
+  display: inline-block;
+  margin: 0em 0em 0em 0em;
+  background: #F33446;
+  width: 50%;
   text-align: center;
 }
 li.serc {
@@ -76,11 +87,31 @@ li.serc {
   display: block;
   border-bottom: 4px solid #F33446;
 }
+.contact-nav ul li a {
+  font-size: 1em;
+  font-weight: 400;
+  color: #fff;
+  text-decoration:none;
+  padding: 1em 0em 1em 0em;
+  display: block;
+  border-bottom: 4px solid #F33446;
+}
 .top-nav a:hover,.top-nav a.active {
 	border-bottom: 4px solid #fff;
 	text-decoration:none;
 }
+.contact-nav a:hover,.contact-nav a.active {
+	border-bottom: 4px solid #fff;
+	text-decoration:none;
+}
 .top-nav ul li a i{
+  background: url(../images/nav-icons.png)no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.contact-nav ul li a i{
   background: url(../images/nav-icons.png)no-repeat;
   width: 20px;
   height: 20px;
@@ -121,9 +152,12 @@ li.serc {
 .top-nav {
   padding: 2em 0em 2em 1em;
 }
+.contact-nav {
+  padding: 2em 0em 2em 1em;
+}
 /*--Footer start here--*/
 .footer1 {
-  background-color: #bdbdbd;
+  background-color: 160px 14px #F33446;
   padding: 1.5em 0;
   width:100%;
 }
@@ -528,6 +562,10 @@ span.mess-num {
   font-weight: 600;
   font-size: 1.15em;
 }
+span.percent-num {
+  font-weight: 600;
+  font-size: 1.15em;
+}
 .mess-small {
  float: right;
   width: 90%;
@@ -621,7 +659,7 @@ div.acc-btn a{
 /*--main start here--*/
 .main1-left{
     line-height:30px;
-    background-color:blue;
+    background-color:;
     height:300px;
     width:24%;
     float:left;
@@ -637,7 +675,7 @@ padding:20px;
     width:75%;
     float:left;
     padding:5px;	 
-	background-color:rgb(255, 255, 255);	
+	background-color:#fff;	
 }
 
 /*--temper start here--*/
@@ -1313,6 +1351,9 @@ span.log-close {
 .top-nav ul li {
     width: 19.5%;
 }
+.contact-nav ul li {
+    width: 19.5%;
+}
 .si-icons span {
   margin: 0em 1.9em 0em 0em;
 }
@@ -1450,6 +1491,9 @@ svg:not(:root) {
 }
 span.mess-num {
   font-size: 0.9em;
+}
+span.percent-num {
+  font-size: 2.5em;
 }
 .fire {
   width: 38%;
