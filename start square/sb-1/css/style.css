@@ -633,10 +633,11 @@ span.page-nation-num {
 }
 /*--Account Button start here--*/
 .acc-btn {
+	text-align:center;
 	background:  #F33446;
 	padding: 3px 0; 
 	height:41px;
-	width:20%;
+	width:200px;
 	float:right;
 	margin-right:2px;
 }
@@ -654,7 +655,7 @@ div.acc-btn a{
 	color:white;
 }
 .acc-btn:hover{
-	background-color:blue;
+	background-color:rgba(178, 236, 9, 0.88);
 }
 /*--main start here--*/
 .main1-left{
@@ -671,8 +672,23 @@ margin-left:100px;
 padding:20px;
 }
 .main1 {
-	height:300px;
+	height:auto;
     width:75%;
+    float:left;
+    padding:5px;	 
+	background-color:#fff;	
+}
+.main2 div{
+display:relative;
+right:80%;
+}
+.main2 div.acc-btn{
+position:relative;
+left:100%;
+}
+.main2 {
+	height:auto;
+    width:100%;
     float:left;
     padding:5px;	 
 	background-color:#fff;	
@@ -938,7 +954,7 @@ span.emma-img {
   display: block;
   position: absolute;
   top: 23%;
-  left: 35%;
+  left: 45%;
   cursor: pointer;
 }
 .main-emma {
