@@ -1,7 +1,7 @@
 <html>
 <head>
 <title> Start Square / Your matches</title>
-<link href="css/bootstrap1.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
@@ -86,35 +86,26 @@
 
 <!--logo ends here-->
 		
-<ul class="res">
-	<li>
-			
-				<div class="messages">
-					<div class="tool-tip-2"> </div>
-					
-					    <a href="#"> <span class="mess-num"> 30 </span>Messages </a>
-							
-					</div>
-			
-	</li>
-			
-	<li>
-
-				<div class="clearfix1">
-					<div class="acc-btn">
-						<div class="account"><a href="#">Account</a></div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-				
-	</li>
-</ul>
 </div>
 </div>
-	<div class="Panelmatch">
-		<p>You Matched <span class="percent-num"> x </span> % </p>
-	</div>
 
+			   <!--navgation start here-->
+		<div class="top-nav">
+			    <span class="menu"> <img src="images/icon.png" alt=""/></span>
+			<ul class="res">
+				<li><a class="active" href="#home"><i class="home"> </i>Step 1 : Registration</a></li>
+				<li><a href="#features"><i class="flag"> </i>Step 2 : Account SetUp</a></li>
+			</ul>
+			<!-- script-for-menu -->
+						 <script>
+						   $( "span.menu" ).click(function() {
+							 $( "ul.res" ).slideToggle( 300, function() {
+							 // Animation complete.
+							  });
+							 });
+						</script>
+		<!-- /script-for-menu -->
+		</div>
 <!--main start here-->
 <div class="container">
 <div class="row">
@@ -132,37 +123,96 @@
 						</div>
 					</div>
 				</div>
-<textarea name="idea" form="usrform" rows="4" cols="50">Enter text here...</textarea>
+				</div>
+				<div class="col-md-8">
+		   		<div class="col-md-8">
+		   		<div class="login">
+		   		   <div class="login-top">
+		   			 <div class="log-input">
+		   			   <input type="text" name="firstname" placeholder="First Name">
+		   			 </div>
+					 <div class="log-input">
+		   			   <input type="text" name="lastname" placeholder="Last Name">
+		   			 </div>
+					 <div class="log-input">
+		   			   <input type="text" name="email" placeholder="Email Address">
+		   			 </div>
+					 <div class="log-input">
+		   			   <input type="text" name="username" placeholder="username">
+		   			 </div>
+					 <div class="log-input1">
+					 <span>Enter password</span>
+					 </div>
+		   			  <div class="log-input">
+		   			   <input type="password" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}">
+		   			   <i class="log-pass"> </i>
+		   			 </div>
+					 <div class="log-input1">
+					 <span style="text-align:center;">Re-type password</span>
+					 </div>
+					 <div class="log-input">
+					 <input type="password" value="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}">
+		   			   <i class="log-pass"> </i>
+					 </div>
+					 <!-- Script by hscripts.com -->
+					  <div class="log-input1">
+					  Country:
+					  </div>
+					 <div class="log-input1">
+						<select name=slist>
+						<script language="javascript">
+						var states = new Array("Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Central African Republic", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo, Democratic Republic", "Congo, Republic of the", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Timor", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Greenland", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea, North", "Korea, South", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Mongolia", "Morocco", "Monaco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Norway", "Oman", "Pakistan", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Samoa", "San Marino", " Sao Tome", "Saudi Arabia", "Senegal", "Serbia and Montenegro", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "Spain", "Sri Lanka", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe");
+						for(var hi=0; hi<states.length; hi++)
+						document.write("<option value=\""+states[hi]+"\">"+states[hi]+"</option>");
+						</script>
+						</select>
+					</div>
+<!-- Script by hscripts.com -->
+
+					   <div class="log-input1">
+		   			   <table>
+<<<<<<< HEAD
+=======
+					   <tr>
+							<td>Account Type</td>
+					   </tr>
+					   <tr>
+						   <td><input type="radio" name="individual" value="individual">individual</td>
+						   <td><input type="radio" name="company" value="company">company</td>
+					   </tr>
+					   <tr>
+								<td>Display Name:</td>
+					   </tr>
+					   <tr>
+							<td><input type="type" name="Display"></td>
+						</tr>
+					   <tr>
+								<td><input type="checkbox" name="Account" value="individual">Display last initial only.</td>
+					   </tr>
+>>>>>>> origin/master
+					   </table>
+		   			 </div>
+		   		   </div>
+		   		   <div class="login-btn">
+		   		   	  <input type="submit" value="Save"> 
+		   		   </div>
+		   		</div>
+				
+	   	  <div class="clearfix"> </div>
+		 
+	   </div>
 <div class="clearfix"></div>
-<form action="demo_form.asp" id="usrform">
-</form>
-				<div class="acc-btn">Present Your Idea</div>
-		    </div>
+
+				
 		</div>
 	<!--main ends here-->	
 <!--navgation start here-->
 		<!--navgation start here-->
 </div>	
-		<div class="contact-nav">
-			    <span class="menu"> <img src="images/icon.png" alt=""/></span>
-			<ul class="res">
-				<li></li>
-				<li> </li>
-				<li><a href="#gallery"><i class="royal"> </i>Contact</a></li>
-				<li><a href="#events"><i class="team"> </i>Team</a></li>
-				
-			</ul>
-			<!-- script-for-menu -->
-						 <script>
-						   $( "span.menu" ).click(function() {
-							 $( "ul.res" ).slideToggle( 300, function() {
-							 // Animation complete.
-							  });
-							 });
-						</script>
-		<!-- /script-for-menu -->
-		</div>
 		
+		 <div class="acc-btn">
+		   		   	<div>Present your Idea</div>
+		   		   </div>
 </div>
 </div>
 <!--Footer start here-->
