@@ -644,12 +644,12 @@ span.page-nation-num {
 .clearfix1{
 	overflow: auto;
 }
-.acc-btn div{
+/*.acc-btn div{
 	margin-right:2px;
 	text-align: center;
 	font-size: 20px;
 	font-family: "Georgia";
-}
+}*/
 div.acc-btn a{
 	text-decoration:none;
 	color:white;
@@ -661,21 +661,21 @@ div.acc-btn a{
 .main1-left{
     line-height:30px;
     background-color:;
-    height:300px;
+    height:348px;
     width:24%;
-    float:left;
+    float:right;
     padding:5px;
 }
 .main1 div{
-margin-top:100px;
+margin-top:50px;
 margin-left:100px;
-padding:20px;
+padding:2px;
 }
 .main1 {
 	height:auto;
     width:75%;
     float:left;
-    padding:5px;	 
+    padding:2px;	 
 	background-color:#fff;	
 }
 .main2 div{
@@ -693,7 +693,26 @@ left:100%;
     padding:5px;	 
 	background-color:#fff;	
 }
-
+/*--Send Button start here--*/
+.send-btn {
+background:  #F33446;
+padding: 1px 0; 
+height:40px;
+width:20%;
+}
+.send-btn div{
+text-align: center;
+font-size: 20px;
+font-family: "Georgia";
+}
+div.send-btn a{
+text-decoration:none;
+text-align: center;
+color:white;
+}
+.send-btn:hover{
+background-color:blue;
+}
 /*--temper start here--*/
 .morocco {
   background: #Fff;
