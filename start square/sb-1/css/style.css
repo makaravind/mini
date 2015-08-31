@@ -1251,7 +1251,12 @@ a.morebtn:hover{
 }
 .log-input1 {
     width: 60%;
-    margin: 0 auto 5px;
+    margin: auto auto 18px;
+	text-align:center;
+}
+.log-input-textbox {
+    width: 60%;
+    margin: 20px 20px 20px 0px;
 	text-align:center;
 }
 .login-top input[type="text"] {
@@ -1520,6 +1525,11 @@ svg:not(:root) {
   padding: 0em 0.3em 0em 0em;
 }
 .messages a {
+  padding: 0.5em 1em 0.5em 0.5em;
+  background: url(../images/email.png)no-repeat 98px 12px #F33446;
+  font-size: 0.9em;
+}
+.messages-accpage a {
   padding: 0.5em 1em 0.5em 0.5em;
   background: url(../images/email.png)no-repeat 98px 12px #F33446;
   font-size: 0.9em;
