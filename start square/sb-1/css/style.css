@@ -1529,11 +1529,7 @@ svg:not(:root) {
   background: url(../images/email.png)no-repeat 98px 12px #F33446;
   font-size: 0.9em;
 }
-.messages-accpage a {
-  padding: 0.5em 1em 0.5em 0.5em;
-  background: url(../images/email.png)no-repeat 98px 12px #F33446;
-  font-size: 0.9em;
-}
+
 span.mess-num {
   font-size: 0.9em;
 }
