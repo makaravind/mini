@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Start Square</title>
+<title> Start Square / Your matches</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -122,7 +122,7 @@
 		<div class="main1">
 			<p>Leonard</p>
 			<div>Working with Raspberry Pi</div>
-			<textarea name="idea" form="usrform" rows="5" cols="75">send a request for collab</textarea>
+			<textarea name="idea" form="usrform" rows="10" cols="75">Enter text here...</textarea>
 <form action="demo_form.asp" id="usrform">
 </form>
 				<div class="acc-btn"><a href="#">Send</a></div>
@@ -134,7 +134,25 @@
 <!--navgation start here-->
 		<!--navgation start here-->
 		
-	
+		<div class="contact-nav">
+			    <span class="menu"> <img src="images/icon.png" alt=""/></span>
+			<ul class="res">
+				<li></li>
+				<li><a href="#events"><i class="team"> </i>Team</a> </li>
+				<li><a href="#gallery"><i class="royal"> </i>Contact</a></li>
+				<li></li>
+				
+			</ul>
+			<!-- script-for-menu -->
+						 <script>
+						   $( "span.menu" ).click(function() {
+							 $( "ul.res" ).slideToggle( 300, function() {
+							 // Animation complete.
+							  });
+							 });
+						</script>
+		<!-- /script-for-menu -->
+		</div>
 		
 </div>
 </div>

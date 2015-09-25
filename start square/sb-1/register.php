@@ -79,7 +79,7 @@
 </head>
 <body>
 
-
+<?php include 'validate.php'?>
 	<div class="simple-btns">
 				<div class="simp-bt3"><a href="index.html">Sign In</a></div>
 				<div class="clearfix"> </div>
@@ -126,8 +126,9 @@
 		   		<div class="login">
 		   		   <div class="login-top">
 		   			 <div class="log-input">
-					 <form method="post" action="validation.php">
-		   			   <input type="text" name="firstname" placeholder="First Name" value="<?php echo $name;?>">
+					 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+		   			   <input type="text" name="firstname" placeholder="First Name" value="<?php echo $firstname;?>">
 		   			 </div>
 					 <div class="log-input">
 		   			   <input type="text" name="lastname" placeholder="Last Name" value="<?php echo $lastname;?>">
@@ -136,20 +137,20 @@
 		   			   <input type="text" name="email" placeholder="Email Address" value="<?php echo $email;?>">
 		   			 </div>
 					 <div class="log-input">
-		   			   <input type="text" name="username" placeholder="User Name" value="<?php echo $username1;?>">
+		   			   <input type="text" name="username" placeholder="User Name" value="<?php echo $username;?>">
 		   			 </div>
 					 <div class="log-input1">
 					 <span>Enter password</span>
 					 </div>
 		   			  <div class="log-input">
-		   			   <input type="password" value="password" name="password">
+		   			   <input type="password" value="" name="password">
 		   			   <i class="log-pass"> </i>
 		   			 </div>
 					 <div class="log-input1">
 					 <span style="text-align:center;">Re-type password</span>
 					 </div>
 					 <div class="log-input">
-					 <input type="password" value="password" name="retype">
+					 <input type="password" value="" name="retype">
 		   			   <i class="log-pass"> </i>
 					 </div>
 					 <!-- Script by hscripts.com -->
@@ -196,9 +197,6 @@
 		   		   </div>
 				   </form>
 		   		</div>
-			
-		   	
-		   
 	   	  <div class="clearfix"> </div>
 	   </div>	
 	

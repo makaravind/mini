@@ -1251,12 +1251,7 @@ a.morebtn:hover{
 }
 .log-input1 {
     width: 60%;
-    margin: auto auto 18px;
-	text-align:center;
-}
-.log-input-textbox {
-    width: 60%;
-    margin: 20px 20px 20px 0px;
+    margin: 0 auto 5px;
 	text-align:center;
 }
 .login-top input[type="text"] {
@@ -1529,7 +1524,6 @@ svg:not(:root) {
   background: url(../images/email.png)no-repeat 98px 12px #F33446;
   font-size: 0.9em;
 }
-
 span.mess-num {
   font-size: 0.9em;
 }
