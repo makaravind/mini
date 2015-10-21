@@ -22,23 +22,6 @@ a:hover {
   -moz-transition: 0.5s all;
   -o-transition: 0.5s all;
 }
-/*--pannel starts here*/
-.panelmatch {
-background:   160px 14px #F33446;
-font-size: 16px;
-padding: 0.2em 0;
-color: #fff;
-height:40px;
-opacity: 0.8;
-filter: alpha(opacity=80); 
-}
-.panelmatch p{
-padding-left: 1px ;
-margin-left: 100px;
-text-align: left;
-font-size: 20px;
-
-}
 /*--mother-grid start here--*/
 .header {
   width: 90%;
@@ -46,7 +29,6 @@ font-size: 20px;
   padding: 2em 0em;
 }
 .logo {
-margin-left:38%;
   padding: 0em 0em 0em 1em;
 }
 /*--navgation start here--*/
@@ -57,22 +39,11 @@ span.menu {
   padding: 0em 0em 0em 0em;
   list-style: none;
 }
-.contact-nav ul {
-  padding: 0em 0em 0em 0em;
-  list-style: none;
-}
 .top-nav ul li {
   display: inline-block;
   margin: 0em 0em 0em 0em;
   background: #F33446;
   width: 19.55%;
-  text-align: center;
-}
-.contact-nav ul li {
-  display: inline-block;
-  margin: 0em 0em 0em 0em;
-  background: #F33446;
-  width: 50%;
   text-align: center;
 }
 li.serc {
@@ -87,31 +58,11 @@ li.serc {
   display: block;
   border-bottom: 4px solid #F33446;
 }
-.contact-nav ul li a {
-  font-size: 1em;
-  font-weight: 400;
-  color: #fff;
-  text-decoration:none;
-  padding: 1em 0em 1em 0em;
-  display: block;
-  border-bottom: 4px solid #F33446;
-}
 .top-nav a:hover,.top-nav a.active {
 	border-bottom: 4px solid #fff;
 	text-decoration:none;
 }
-.contact-nav a:hover,.contact-nav a.active {
-	border-bottom: 4px solid #fff;
-	text-decoration:none;
-}
 .top-nav ul li a i{
-  background: url(../images/nav-icons.png)no-repeat;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
-  vertical-align: middle;
-}
-.contact-nav ul li a i{
   background: url(../images/nav-icons.png)no-repeat;
   width: 20px;
   height: 20px;
@@ -152,47 +103,6 @@ li.serc {
 .top-nav {
   padding: 2em 0em 2em 1em;
 }
-.contact-nav {
-  padding: 2em 0em 2em 1em;
-}
-/*--Footer start here--*/
-.footer1 {
-  background-color: 160px 14px #F33446;
-  padding: 1.5em 0;
-  width:100%;
-}
-.footer1 p {
-  color: #645d5d;
-  font-size: 16px;
-  text-align: center;
-}
-.footer1 p a {
-  color: #645d5d;
-  font-size: 16px;
-}
-.footer1 p a:hover{
-  color: rgb(192, 58, 58);
-  text-decoration: underline;
-}
-.footer1 p {
-  font-size: 15px;
-}
-.footer1 p a {
-  font-size: 15px;
-}
-.footer1 p {
-  font-size: 14px;
-}
-.footer1 p a {
-  font-size: 14px;
-}
-.footer1 p {
-  font-size: 13px;
-}
-.footer1 p a {
-  font-size: 13px;
-}
-/*--Footer ends here--*/
 /*--header left start here--*/
 /*--search1 start here--*/
 .serch1 {
@@ -270,15 +180,8 @@ li.serc {
 }
 /*--simple btns here--*/
 .simp-bt1 {
-margin-top:15px;
-  float: right;
-  width: 25%;
-}
-.simp-bt3 {
-margin-top:10px;
-  float: right;
-  width: 15%;
-  margin-right:15px;
+  float: left;
+  width: 49%;
 }
 .simp-bt2 {
   float:right;
@@ -288,26 +191,13 @@ margin-top:10px;
   font-size: 1em;
   font-weight: 400;
   color: #fff;
-  padding: 0.3em 0em 0.3em 0em;
-  text-align: center;
-  background: #F33446;
-  text-decoration: none;
-  display: block;
-}
-.simp-bt3 a {
-  font-size: 1em;
-  font-weight: 400;
-  color: #fff;
-  padding: 0.3em 0em 0.3em 0em;
+  padding: 0.7em 0em 0.7em 0em;
   text-align: center;
   background: #F33446;
   text-decoration: none;
   display: block;
 }
 .simp-bt1 a:hover {
-  background: #000;
-}
-.simp-bt3 a:hover {
   background: #000;
 }
 .simp-bt2 a {
@@ -526,7 +416,7 @@ ul.cute li{
 	text-align: center;
 	margin-top: 5em;
 }
-.footer1-nav{
+.footer-nav{
   background: #879999;
   padding: 5em 0;
   text-align: center;
@@ -542,8 +432,8 @@ ul.cute li{
   margin: 2.3em 0em 0em 0em;
 }
 .messages {
-  float: right;
-  width: 17%;
+  float: left;
+  width: 50%;
   position: relative;
 }
 .messages a {
@@ -562,12 +452,8 @@ span.mess-num {
   font-weight: 600;
   font-size: 1.15em;
 }
-span.percent-num {
-  font-weight: 600;
-  font-size: 1.15em;
-}
 .mess-small {
- float: right;
+  float: right;
   width: 90%;
 }
 .fire a {
@@ -605,11 +491,11 @@ span.percent-num {
   width: 0;
   height: 0;
   bottom: -20px;
-  border-right: 0px solid rgba(0, 0, 0, 0);
+  border-right: 13px solid rgba(0, 0, 0, 0);
   border-top: 11px solid #F33446;
   border-left: 13px solid rgba(0, 0, 0, 0);
   top: 101%;
-  left: 80%;
+  left: 62%;
 }
 /*--pagenation start here--*/
 .page-nation {
@@ -630,88 +516,6 @@ span.page-nation-num {
   height: 30px;
   display: inline-block;
   line-height: 1.6em;
-}
-/*--Account Button start here--*/
-.acc-btn {
-	text-align:center;
-	background:  #F33446;
-	padding: 3px 0; 
-	height:41px;
-	width:200px;
-	float:right;
-	margin-right:2px;
-}
-.clearfix1{
-	overflow: auto;
-}
-/*.acc-btn div{
-	margin-right:2px;
-	text-align: center;
-	font-size: 20px;
-	font-family: "Georgia";
-}*/
-div.acc-btn a{
-	text-decoration:none;
-	color:white;
-}
-.acc-btn:hover{
-	background-color:rgba(178, 236, 9, 0.88);
-}
-/*--main start here--*/
-.main1-left{
-    line-height:30px;
-    background-color:;
-    height:348px;
-    width:24%;
-    float:right;
-    padding:5px;
-}
-.main1 div{
-margin-top:50px;
-margin-left:100px;
-padding:2px;
-}
-.main1 {
-	height:auto;
-    width:75%;
-    float:left;
-    padding:2px;	 
-	background-color:#fff;	
-}
-.main2 div{
-display:relative;
-right:80%;
-}
-.main2 div.acc-btn{
-position:relative;
-left:100%;
-}
-.main2 {
-	height:auto;
-    width:100%;
-    float:left;
-    padding:5px;	 
-	background-color:#fff;	
-}
-/*--Send Button start here--*/
-.send-btn {
-background:  #F33446;
-padding: 1px 0; 
-height:40px;
-width:20%;
-}
-.send-btn div{
-text-align: center;
-font-size: 20px;
-font-family: "Georgia";
-}
-div.send-btn a{
-text-decoration:none;
-text-align: center;
-color:white;
-}
-.send-btn:hover{
-background-color:blue;
 }
 /*--temper start here--*/
 .morocco {
@@ -973,7 +777,7 @@ span.emma-img {
   display: block;
   position: absolute;
   top: 23%;
-  left: 45%;
+  left: 35%;
   cursor: pointer;
 }
 .main-emma {
@@ -1000,7 +804,7 @@ span.emma-img {
   font-size: 1em;
 }
 .follow-right {
-  padding: 0em 0em 0em 0em;
+  padding: 1.3em 0em 0em 0em;
 }
 .box-close {
   text-align: right;
@@ -1241,18 +1045,12 @@ a.morebtn:hover{
 }
 .login-top {
   background: #F33446;
-  padding: 1em 0em;
-  
+  padding: 2em 0em;
 }
 .log-input {
   background: #fff;
   width: 60%;
   margin: 0 auto 1em;
-}
-.log-input1 {
-    width: 60%;
-    margin: 0 auto 5px;
-	text-align:center;
 }
 .login-top input[type="text"] {
   font-size: 1em;
@@ -1268,7 +1066,6 @@ a.morebtn:hover{
 i.log-mail {
   background: url(../images/r-user.png)no-repeat 0px 0px;
   width: 14px;
-  float:right;
   height: 14px;
   display: inline-block;
   vertical-align: middle;
@@ -1295,7 +1092,6 @@ i.log-pass {
   background: #fff;
   padding: 1em 0em;
   text-align: center;
- 
 }
 .login-btn input[type="submit"]{
   font-size: 1em;
@@ -1386,9 +1182,6 @@ span.log-close {
 .top-nav ul li {
     width: 19.5%;
 }
-.contact-nav ul li {
-    width: 19.5%;
-}
 .si-icons span {
   margin: 0em 1.9em 0em 0em;
 }
@@ -1403,8 +1196,7 @@ span.log-close {
   background: url(../images/email.png)no-repeat 140px 14px #F33446;
 }
 .login {
-margin-top: 1.9em;
-
+  margin: 1.9em 0em 0em 0em;
 }
 .marrakech p {
   font-size: 0.9em;
@@ -1428,8 +1220,7 @@ i.glyphicon.glyphicon-menu-down {
   padding: 3em 1em 2.75em 1em;
 }
 .login {
-  margin: 1.9em;
-
+  margin: 2em 0em 0em 0em;
 }
 .marrakech p {
   line-height: 1.58em;
@@ -1526,9 +1317,6 @@ svg:not(:root) {
 }
 span.mess-num {
   font-size: 0.9em;
-}
-span.percent-num {
-  font-size: 2.5em;
 }
 .fire {
   width: 38%;
@@ -1643,7 +1431,6 @@ span.menu{
 		position:relative;
 	}
 .top-nav ul.res{
-    
 	 display:none;
 	 padding:0px;
 }
@@ -1656,16 +1443,15 @@ span.menu{
 		left:0;
 }
 .top-nav ul.res li {
-		
 		display: block;
 		text-align: center;
 		background:#C62D3B;
-		margin-left: 0px;
+		margin: 0;
 		  width: 100%;
 }
 .top-nav ul.res li a {
 		font-size: 16px;
-		padding: 0.8em 0;
+		padding: 1em 0;
 		color: #fff;
 		display: block;
 		  border: none;
@@ -1853,7 +1639,6 @@ i.glyphicon.glyphicon-menu-down {
   padding: 1.5em 0.9em 1.5em 1em;
 }
 .logo img {
-
   width: 50%;
 }
 .top-nav {
@@ -1889,7 +1674,6 @@ i.glyphicon.glyphicon-menu-down {
   padding: 1em 0em;
 }	
 .logo img {
-
   width: 60%;
 }
 .serch1 input[type="text"] {

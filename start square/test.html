@@ -1,6 +1,7 @@
+<!DOCTYPE HTML>
 <html>
 <head>
-<title> Start Square</title>
+<title> mini project</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
@@ -76,58 +77,63 @@
 </script>
 </head>
 <body>
-<div class="container">
-
-	<div class="simple-btns">
-				<div class="simp-bt1"><a href="register.php">Register</a></div>
-				<div class="clearfix"> </div>
-			</div>
-<div class="header">
+ <div class="header">
 		<div class="logo">
-			<a href="#"><img src="images/logo.png" alt=""></a>
-		</div>
-		
-		
-
-<!--header main start here-->
-<div class="header-main">
-  
-<!--header right start here-->
-
-
-
-<!--header right blc-3 start here-->
-	  
-		   	
 			
-		   		<div class="col-md-5">
+		</div>
+
 		   		<div class="login">
-				<form name="f1" action="validate.php" method="post" >
 		   		   <div class="login-top">
-		   		
+	   				 <span class="log-close"> </span>
 		   			 <div class="log-input">
-		   			   <input type="text" name="login" placeholder="Login" required>
+		   			   <input type="text" value="Login" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Login';}">
 		   			   <i class="log-mail"> </i>
 		   			 </div>
 		   			  <div class="log-input">
-		   			   <input type="password" name="password" placeholder="Password"  required>
+		   			   <input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}">
 		   			   <i class="log-pass"> </i>
 		   			 </div>
 		   		   </div>
 		   		   <div class="login-btn">
-		   		   	  <input type="submit" value="Login" name="login"> 
-		   		   </div>
-				   </form>
+		   		   	  <input type="submit" value="Login">
+		   		   </div>    
 		   		</div>
-			
-		   	
-		   
-	   	  <div class="clearfix"> </div>
-	   </div>	
-	
-	
-  <div class="clearfix"> </div>
-</div>
-</div>
+		  <div class="col-md-12 header-right-blc-2">
+	   	  <div class="bann-slider">
+	   	  	<ul class="rslides" id="slider">
+				<li>
+					<div class="slide-text">
+			 			<h3>MARINA BAY</h3>
+			 			<p>Explore the magnificient</p>
+		            </div>
+		 		</li>
+		 		<li>
+		  			<div class="slide-text">
+			 			<h3>FINIBUS BAY</h3>
+			 			<p>But must explain mistaken</p>
+		            </div>
+			     </li>
+		         <li>
+		  			<div class="slide-text">
+			 			<h3>BONORUM BAY</h3>
+			 			<p>denouncing pleasure system</p>
+		            </div>
+			     </li>
+			 </ul>
+	   	  </div>
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+				    $(function () {
+				      $("#slider").responsiveSlides({
+				      	auto: true,
+				      	speed: 500,
+				        namespace: "callbacks",
+				        pager: false,
+				        nav:true,
+				      });
+				    });
+				  </script>
+	   </div>
+
 </body>
 </html>
